@@ -1,16 +1,12 @@
 import { defineConfig } from 'astro/config';
-import starlight from '@astrojs/starlight'; // 1. Import the integration
+import starlight from '@astrojs/starlight';
 
 export default defineConfig({
-  site: 'https://maverickspectacle.github.io', 
-  base: '/promethean-dissident',           
+  site: 'https://maverickspectacle.github.io',
+  base: '/promethean-dissident',
   integrations: [
-    starlight({                      // 2. Add it to integrations
-      title: 'My Documentation Site',
-      sidebar: [
-        { label: 'Home', link: '/' },
-        { label: 'Guide', link: '/guides/example/' },
-      ],
+    starlight({
+      title: 'My Docs',
     }),
   ],
 });
