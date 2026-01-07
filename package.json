@@ -1,4 +1,4 @@
 "dependencies": {
   "astro": "^5.0.0",
   "@astrojs/starlight": "^0.31.1"
-}
+
